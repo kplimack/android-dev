@@ -29,6 +29,12 @@ Just add `role[android-dev]` in your node's `run_list`:
 }
 ```
 
+Chef Solo
+-----
+```bash
+chef-solo -c solo.rb -o "role[android-dev]" -ldebug
+```
+
 Contributing
 ------------
 TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
